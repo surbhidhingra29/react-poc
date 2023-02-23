@@ -3,25 +3,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import { Routes, Route, Link } from "react-router-dom";
-import LivingThingsAssignment1 from './1-Assignment/components/LivingThingsFunctional';
-import LivingThingsAssignment2 from './2-Assignment/components/LivingThingsClass';
+import LivingThingsAssignment1 from './Assignment1/components/LivingThingsFunctional';
+import LivingThingsAssignment2 from './Assignment2/components/LivingThingsClass';
 
 // For Assignment 1st Functional components with useState hook
-import Users from './1-Assignment/components/Users';
-import Birds from './1-Assignment/components/Birds';
-import Employees from './1-Assignment/components/Employees';
-import Animals from './1-Assignment/components/Animals';
+import Users from './Assignment1/components/Users';
+import Birds from './Assignment1/components/Birds';
+import Employees from './Assignment1/components/Employees';
+import Animals from './Assignment1/components/Animals';
 
 // For Assignment 2nd Statefull Class components
-import UsersC from './2-Assignment/components/UsersC';
-import BirdsC from './2-Assignment/components/BirdsC';
-import EmployeesC from './2-Assignment/components/EmployeesC';
-import AnimalsC from './2-Assignment/components/AnimalsC';
+import UsersC from './Assignment2/components/UsersC';
+import BirdsC from './Assignment2/components/BirdsC';
+import EmployeesC from './Assignment2/components/EmployeesC';
+import AnimalsC from './Assignment2/components/AnimalsC';
 
 // API call for Photo and Employees date
 import Button from "react-bootstrap/Button";
-import PhotosC from './3-Assignment/components/Photos';
-import EmployeesClass from './3-Assignment/components/Employees';
+import PhotosC from './Assignment3/components/Photos';
+import EmployeesClass from './Assignment3/components/Employees';
 
 function App() {
   return (
