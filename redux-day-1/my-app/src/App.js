@@ -5,7 +5,7 @@ import UserList from './components/employees';
 
 function App() {
   return (
-    <div className='container py-4'>
+    <div className='container py-2'>
 
       <AddUserForm />
       <UserList />
